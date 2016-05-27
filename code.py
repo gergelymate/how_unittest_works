@@ -12,6 +12,8 @@ def calculator(p1, p2, method = '+'):
         result = p1 / p2
     elif method == '-':
         result = p1 - p2
+    elif method == ':':
+        result = p1 / p2
     elif method == '^':
         result = pow(p1,p2)
     else:
